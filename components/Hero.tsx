@@ -27,8 +27,8 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            hi I&apos; ajnur laerning coding based in switzerland 
+          <p className="text-center tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-white">
+            Hi I&apos; ajnur laerning coding based in switzerland 
           </p>
 
           <a href="#about">
