@@ -12,7 +12,7 @@ const RecentProjects = () => {
         A small selection of{" "}
         <span className="text-purple"> My Projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-7 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-7 mt-3">
         {projects.map((item) => (
           <div
             className="sm:h-[41rem]  h-[32rem] lg:min-h-[32.5rem]  flex items-center justify-center sm:w-[570px] w-[80vw]"
@@ -66,7 +66,7 @@ const RecentProjects = () => {
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                  <p className="flex lg:text-xl md:text-xs text-sm text-purple2">
                     Check Live Site
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
