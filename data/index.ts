@@ -1,7 +1,7 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    // { name: "Testimonials", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -74,7 +74,7 @@ export const navItems = [
       id: 1,
       title: "3D Solar System Planets to Explore",
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/hangman_game.svg",
+      img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       link: "https://github.com/adrianhajdin?tab=repositories",
     },
@@ -205,13 +205,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/ajnurademi",  
     },
     {
       id: 2,
-      img: "/twit.svg",
+      img: "/insta.svg",
+      link: "https://twitter.com",  
     },
     {
       id: 3,
       img: "/link.svg",
-    },
-  ];
+      link: "https://www.linkedin.com/in/ajnur-ademi-/",  
+    }
+  ]

@@ -3,11 +3,10 @@ import React from "react";
 
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
-import { div } from "three/webgpu";
 
 const Approach = () => {
     return (
-        <section className="w-full py-20">
+        <section className="w-full py-20" id="#approach">
             <h1 className="heading text-white">
                 My <span className="text-purple">approach</span>
             </h1>
