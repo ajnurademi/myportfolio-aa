@@ -1,7 +1,4 @@
-"use client";
-
 import { FaLocationArrow } from "react-icons/fa6";
-
 import { projects } from "@/data";
 import { PinContainer } from "./ui/3d-pin";
 
@@ -10,21 +7,26 @@ const RecentProjects = () => {
     <div className="py-20" id="projects">
       <h1 className="heading text-white">
         A small selection of{" "}
-        <span className="text-purple"> My Projects</span>
+        <span className="text-purple">My Projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-7 mt-3">
         {projects.map((item) => (
           <div
-            className="sm:h-[41rem]  h-[32rem] lg:min-h-[32.5rem]  flex items-center justify-center sm:w-[570px] w-[80vw]"
+            className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
             key={item.id}
           >
             <PinContainer
               title={item.link}
               href={item.link}
             >
-              <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10  max-h-96">
+              <a
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10 max-h-96"
+              >
                 <div
-                  className="relative w-full h-full overflow-hidden lg:rounded-3xl "
+                  className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
                   <img src="/bg.png" alt="bg-img" />
@@ -32,9 +34,9 @@ const RecentProjects = () => {
                 <img
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute bottom-0 "
+                  className="z-10 absolute bottom-0"
                 />
-              </div>
+              </a>
 
               <h1 className="text-white font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                 {item.title}
@@ -60,7 +62,7 @@ const RecentProjects = () => {
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
-                      <img src={icon} alt="icon5" className="p-2" />
+                      <img src={icon} alt="icon" className="p-2" />
                     </div>
                   ))}
                 </div>

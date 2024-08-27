@@ -100,7 +100,7 @@ export const projects = [
     des: "Explore a collection of interactive school projects",
     img: "/p2.png",
     iconLists: ["/node.svg", "javascript.svg", "tail.svg", "html.svg", "css.svg", "java.svg"],
-    link: "https://github.com/ajnurademi/HangmanGame-"
+    link: "https://github.com/ajnurademi/myschoolprojects_aa"
   }
     
 ];
