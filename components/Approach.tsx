@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
@@ -47,7 +46,6 @@ const Approach = () => {
                         colors={[[125, 211, 252]]}
                     />
                 </Card>
-
             </div>
         </section>
     );

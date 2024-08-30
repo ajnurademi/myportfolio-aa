@@ -39,7 +39,6 @@ const Hero = () => {
           />
         </div>
 
-        {/* Left Text Section */}
         <div className="md:w-1/2 flex flex-col items-center md:items-start mt-10 md:mt-0">
           <p className="uppercase tracking-widest text-xs text-center md:text-left text-blue-100">
             My Portfolio Website
