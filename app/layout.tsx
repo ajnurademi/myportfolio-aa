@@ -20,8 +20,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
-          /*! DARKMODE LIGHTMODE (WATCH --> night-themes (add mode toggle min.26:44)*/
-          defaultTheme="system"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >

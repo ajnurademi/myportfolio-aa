@@ -28,9 +28,7 @@ const Hero = () => {
         />
       </div>
 
-      {/* Content Section */}
-      <div className="flex flex-col md:flex-row md:flex-row-reverse justify-center items-center relative z-10 my-5 w-full max-w-screen-xl mx-auto px-4">
-        {/* Image Section */}
+      <div className="flex flex-col md:flex-row-reverse justify-center items-center relative z-10 my-5 w-full max-w-screen-xl mx-auto px-4">
         <div className="md:w-1/2 flex justify-center md:justify-end">
           <img
             src="/hero-portfolio.png"
